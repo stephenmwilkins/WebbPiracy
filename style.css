@@ -11,7 +11,7 @@ body {
     height: 600px;
     border: solid black;
     background-color: blue;
-    background-image: url("imgs/map.png");
+    /* background-image: url("imgs/map.png"); */
 }
 
 .grid div {
