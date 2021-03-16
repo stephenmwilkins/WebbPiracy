@@ -1,16 +1,42 @@
 
 
+html {
+  margin:0;
+  height: 100%;
+}
+
 body {
-  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding:0;
+  margin:0;
+  height: 100%;
+}
+
+
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 800px;
+  font-size: 14pt;
+}
+
+
+.credits {
+  padding-top: 50px;
+  margin: auto;
+  width: 800px;
+  font-size: 12pt;
 }
 
 .grid {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 1120px;
     height: 600px;
     border: solid black;
-    background-color: blue;
+    background-color: #305497;
     /* background-image: url("imgs/map.png"); */
 }
 
@@ -23,11 +49,11 @@ body {
 
 .wall {
     /* border: 2px solid green; */
-    background-color: green;
+    background-color: #629B5F;
 }
 
 .sea-wall {
-    background-color: darkblue;
+    background-color: #183E86;
 }
 
 
