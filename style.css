@@ -1,0 +1,46 @@
+
+
+body {
+  text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1120px;
+    height: 800px;
+    border: solid black;
+    background-color: blue;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: green;
+}
+
+.sea-wall {
+    background-color: darkblue;
+}
+
+
+.pirate {
+    background-image: url('imgs/pirate.png');
+}
+
+.pac-man {
+    width: 40px;
+    height: 40px;
+    background-image: url('imgs/webb.png');
+    /* background-color: yellow;
+    border-radius: 20px; */
+}
